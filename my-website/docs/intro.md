@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Premier pas
 
-Let's discover **Docusaurus in less than 5 minutes**.
+---
 
-## Getting Started
+# Accès unifié avec notre application SSO
 
-Get started by **creating a new site**.
+Notre application **Single Sign-On (SSO)** vous permet de vous connecter à tous vos services essentiels avec un seul compte, simplifiant ainsi votre expérience utilisateur. Que vous ayez besoin d'accéder au support, à votre gestionnaire de mots de passe ou de transférer des fichiers, tout est désormais à portée de main.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Fonctionnalités principales
 
-### What you'll need
+### 1. Accès centralisé à tous vos services
+Grâce à notre solution SSO, un seul identifiant suffit pour accéder à tous vos services, y compris :
+- **Support technique** : Contactez rapidement notre équipe pour toute assistance technique ou question.
+- **Gestionnaire de mots de passe** : Gérez tous vos mots de passe en toute sécurité depuis une interface unique et sécurisée.
+- **Transfert de fichiers sécurisé** : Partagez et transférez vos documents de manière rapide et sécurisée à travers notre plateforme intégrée.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 2. Sécurité renforcée
+Notre application SSO garantit une sécurité de haut niveau grâce à des protocoles d'authentification avancés, protégeant ainsi vos informations et vos services contre les accès non autorisés.
 
-## Generate a new site
+### 3. Simplification des tâches quotidiennes
+Ne perdez plus de temps à jongler entre plusieurs identifiants et mots de passe. Avec notre application SSO, un seul login vous permet d'accéder instantanément à tout ce dont vous avez besoin pour travailler efficacement.
 
-Generate a new Docusaurus site using the **classic template**.
+### 4. Assistance continue
+Besoin d'aide ? Vous pouvez accéder à notre **support** via la plateforme SSO pour obtenir de l'aide à tout moment. Notre équipe est là pour vous guider dans l'utilisation des services.
 
-The classic template will automatically be added to your project after you run the command:
+## Comment démarrer ?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+1. Créez votre compte sur notre plateforme.
+2. Connectez-vous une seule fois et accédez à tous vos services : Support, Gestionnaire de mots de passe, Transfert de fichiers et bien plus encore.
+3. Profitez d’une gestion unifiée et sécurisée de vos services professionnels.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+![SSO CONNEXIOn](/img/sso_connexion.png)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Pour toute question ou besoin d’assistance, n’hésitez pas à contacter notre équipe via le **support** disponible sur votre tableau de bord.
 
-## Start your site
+---
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Avec notre solution SSO, simplifiez et sécurisez l'accès à l'ensemble de vos services essentiels !
