@@ -8,34 +8,28 @@ description: Guide simple pour comprendre ce qu'est un nom de domaine et comment
 
 Choisir le bon ordinateur peut dépendre de vos besoins en termes de performance, de mobilité, et de budget. Voici une comparaison de plusieurs modèles pour vous aider à prendre la meilleure décision.
 
-| **Modèle**              | **Processeur**        | **RAM**   | **Stockage**           | **Taille de l'écran** | **Autonomie** | **Prix**     | **Idéal pour**                |
-|-------------------------|-----------------------|-----------|------------------------|-----------------------|---------------|--------------|-------------------------------|
-| **HP Spectre x360**      | Intel Core i7         | 16 Go     | 512 Go SSD             | 13,3 pouces           | 12 heures     | 1 499 €      | ![SSO CONNEXIOn](img/pc.png)    |
-| **Dell XPS 13**          | Intel Core i5         | 8 Go      | 256 Go SSD             | 13,4 pouces           | 11 heures     | 1 199 €      | Portabilité et performance     |
-| **Apple MacBook Air M2** | Apple M2              | 8 Go      | 256 Go SSD             | 13,6 pouces           | 18 heures     | 1 299 €      | Création multimédia, nomades   |
-| **Lenovo ThinkPad X1**   | Intel Core i7         | 16 Go     | 1 To SSD               | 14 pouces             | 15 heures     | 1 699 €      | Entreprise, sécurité renforcée |
-| **Acer Aspire 5**        | AMD Ryzen 5           | 8 Go      | 512 Go SSD             | 15,6 pouces           | 8 heures      | 799 €        | Bureautique, budget limité     |
-| **Asus ROG Strix G15**   | AMD Ryzen 9           | 32 Go     | 1 To SSD               | 15,6 pouces           | 6 heures      | 1 999 €      | Gaming, performance extrême    |
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-## Détails des modèles
-
-### 1. **HP Spectre x360**
-Un excellent modèle pour les professionnels en déplacement, avec une grande autonomie et un écran tactile réversible. Parfait pour les présentations et le travail multitâche.
-
-### 2. **Dell XPS 13**
-Idéal pour ceux qui recherchent un ordinateur léger et puissant. Son design élégant et sa longue autonomie le rendent parfait pour les voyages d'affaires.
-
-### 3. **Apple MacBook Air M2**
-Connu pour son efficacité énergétique et ses performances puissantes grâce à la puce M2 d'Apple, ce modèle est parfait pour les créateurs de contenu et les étudiants.
-
-### 4. **Lenovo ThinkPad X1**
-L’ordinateur de choix pour les entreprises. Il offre une sécurité de haut niveau avec un cryptage des données et un écran légèrement plus grand pour plus de confort visuel.
-
-### 5. **Acer Aspire 5**
-Un ordinateur au bon rapport qualité/prix, idéal pour la bureautique et une utilisation quotidienne sans compromis sur la performance. 
-
-### 6. **Asus ROG Strix G15**
-Une machine de jeu puissante, avec un processeur AMD Ryzen 9 et une grande capacité de RAM, parfaite pour les gamers ou ceux qui ont besoin de beaucoup de puissance de calcul.
+<Tabs>
+  <TabItem value="apple" label="Ordinateur fixe" default>
+| **Référence** | **Modèle**              | **Caractéristiques**                             | **Taille de l'écran** | **Autonomie** | **Photo**                        |
+|---------------|-------------------------|--------------------------------------------------|-----------------------|---------------|----------------------------------|
+| 001           | **HP Spectre x360**     | **Processeur :** Intel Core i7 <br /> **RAM :** 16 Go <br /> **Stockage :** 512 Go SSD | 13,3 pouces           | 12 heures     | ![HP Spectre x360](img/pc.png)    |
+| 002           | **Dell XPS 13**         | **Processeur :** Intel Core i5 <br /> **RAM :** 8 Go <br /> **Stockage :** 256 Go SSD | 13,4 pouces           | 11 heures     | ![Dell XPS 13](img/pc.png)     |
+| 003           | **Apple MacBook Air M2**| **Processeur :** Apple M2 <br /> **RAM :** 8 Go <br /> **Stockage :** 256 Go SSD | 13,6 pouces           | 18 heures     | ![MacBook Air M2](img/pc.png)|
+| 004           | **Lenovo ThinkPad X1**  | **Processeur :** Intel Core i7 <br /> **RAM :** 16 Go <br /> **Stockage :** 1 To SSD | 14 pouces             | 15 heures     | ![ThinkPad X1](img/pc.png) |
+| 005           | **Acer Aspire 5**       | **Processeur :** AMD Ryzen 5 <br /> **RAM :** 8 Go <br /> **Stockage :** 512 Go SSD | 15,6 pouces           | 8 heures      | ![Acer Aspire 5](img/pc.png)   |
+| 006           | **Asus ROG Strix G15**  | **Processeur :** AMD Ryzen 9 <br /> **RAM :** 32 Go <br /> **Stockage :** 1 To SSD | 15,6 pouces           | 6 heures      | ![Asus ROG](img/pc.png)        |
+  </TabItem>
+  <TabItem value="orange" label="Pc portable">
+| **Référence** | **Modèle**              | **Caractéristiques**                             | **Taille de l'écran** | **Autonomie** | **Photo**                        |
+|---------------|-------------------------|--------------------------------------------------|-----------------------|---------------|----------------------------------|
+| 007           | **HP Spectre x360**     | **Processeur :** Intel Core i7 <br /> **RAM :** 16 Go <br /> **Stockage :** 512 Go SSD | 13,3 pouces           | 12 heures     | ![HP Spectre x360](img/pc.png)    |
+| 008           | **Dell XPS 13**         | **Processeur :** Intel Core i5 <br /> **RAM :** 8 Go <br /> **Stockage :** 256 Go SSD | 13,4 pouces           | 11 heures     | ![Dell XPS 13](img/pc.png)     |
+| 010           | **Apple MacBook Air M2**| **Processeur :** Apple M2 <br /> **RAM :** 8 Go <br /> **Stockage :** 256 Go SSD | 13,6 pouces           | 18 heures     | ![MacBook Air M2](img/pc.png)|
+  </TabItem>
+</Tabs>
 
 ## Choisir le bon modèle
 
@@ -52,8 +46,8 @@ L'**Asus ROG Strix G15** est conçu pour des performances extrêmes avec ses 32 
 
 Avec cette comparaison, vous pouvez choisir le modèle qui correspond le mieux à vos besoins, qu'il s'agisse de performance, de mobilité, ou de budget.
 
-:::tip[Information]
+:::info[Information commercial]
 
-Pour toute demande de devis merci d'envoyer un mail à xxxx@test.Fr
+Pour toute demande de devis vous pouvez envoyer un mail à **xxxx@test.fr**
 
 :::

@@ -7,6 +7,8 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+import CentraleSvg from '@site/static/img/blocks-shuffle-3.svg';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -20,9 +22,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Commencer !
+            Consulter !
+            
           </Link>
         </div>
+        <CentraleSvg className="themedSvg" style={{ maxWidth: '100%', height: 'auto', marginTop: '20px' }} />
+
       </div>
     </header>
   );

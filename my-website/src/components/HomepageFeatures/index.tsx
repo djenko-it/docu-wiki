@@ -10,30 +10,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Support',
+    title: 'Support d\'achat',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Nous offrons un support dédié pour vous aider à résoudre les problèmes que vous rencontrez. Notre équipe est disponible pour répondre à vos questions et vous guider à travers les étapes nécessaires.
+        Nous offrons un support dédié pour vous accompagner dans vos démarches d’achat groupé. Notre équipe est disponible pour vous conseiller, vous guider dans le choix des fournisseurs et vous aider à optimiser vos achats.
       </>
     ),
   },
   {
-    title: 'Procédures simplifiées',
+    title: 'Procédures d\'achat simplifiées',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Suivez des procédures claires et bien documentées pour configurer et utiliser notre plateforme. Que ce soit pour l’installation ou la maintenance, nous avons ce qu’il vous faut.
+        Suivez des procédures d’achat claires et bien définies pour une expérience fluide. Qu’il s’agisse de la sélection des produits ou de la gestion des commandes, nous facilitons chaque étape.
       </>
     ),
   },
   {
-    title: 'Accès aux informations',
+    title: 'Accès à des informations privilégiées',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Restez informé grâce à une documentation complète et des ressources actualisées. Vous pouvez consulter les dernières informations techniques et les mises à jour sur nos fonctionnalités.
-
+        Profitez d’un accès exclusif à des informations sur les meilleurs fournisseurs et les dernières tendances du marché. Nos ressources actualisées vous permettent de prendre des décisions éclairées.
+      </>
+    ),
+  },
+  {
+    title: 'Accès à des informations privilégiées',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Profitez d’un accès exclusif à des informations sur les meilleurs fournisseurs et les dernières tendances du marché. Nos ressources actualisées vous permettent de prendre des décisions éclairées.
       </>
     ),
   },
@@ -41,7 +49,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

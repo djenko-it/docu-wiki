@@ -2,41 +2,77 @@
 sidebar_position: 1
 ---
 
-# Premier pas
+# Bienvenue à la Centrale d'Achat
 
----
+La **Centrale d'Achat** vous offre des solutions complètes pour centraliser et optimiser vos achats en groupe. Grâce à nos services, vous pouvez obtenir les meilleurs tarifs, simplifier vos processus et accéder à des fournisseurs de confiance.
 
-# Accès unifié avec notre application SSO
+## Nos catégories de produits
 
-Notre application **Single Sign-On (SSO)** vous permet de vous connecter à tous vos services essentiels avec un seul compte, simplifiant ainsi votre expérience utilisateur. Que vous ayez besoin d'accéder au support, à votre gestionnaire de mots de passe ou de transférer des fichiers, tout est désormais à portée de main.
+Découvrez nos différentes catégories de produits et services pour optimiser vos achats professionnels. Chaque catégorie est présentée dans des blocs stylisés pour vous offrir une vue d'ensemble claire et agréable.
 
-## Fonctionnalités principales
+<div style={{ display: 'flex', flexWrap: 'wrap' }}>
+  {/* Colonne 1 */}
+  <div style={{ flex: '1 1 50%', padding: '1rem' }}>
+    <div style={{ backgroundColor: '#f5f5f5', padding: '1rem', borderRadius: '5px', marginBottom: '1rem' }}>
+      <h3>
+        <a href="/docs/central/pc" style={{ textDecoration: 'none', color: 'inherit' }}>
+          📦 Ordinateurs
+        </a>
+      </h3>
+      Découvrez notre large sélection d'ordinateurs portables et de bureau adaptés à tous les usages professionnels. Profitez de performances optimales pour vos projets les plus exigeants.
+    </div>
 
-### 1. Accès centralisé à tous vos services
-Grâce à notre solution SSO, un seul identifiant suffit pour accéder à tous vos services, y compris :
-- **Support technique** : Contactez rapidement notre équipe pour toute assistance technique ou question.
-- **Gestionnaire de mots de passe** : Gérez tous vos mots de passe en toute sécurité depuis une interface unique et sécurisée.
-- **Transfert de fichiers sécurisé** : Partagez et transférez vos documents de manière rapide et sécurisée à travers notre plateforme intégrée.
+    <div style={{ backgroundColor: '#f5f5f5', padding: '1rem', borderRadius: '5px', marginBottom: '1rem' }}>
+      <h3>
+        <a href="/docs/central/screen" style={{ textDecoration: 'none', color: 'inherit' }}>
+          🖥️ Écrans
+        </a>
+      </h3>
+      Trouvez l'écran idéal pour vos besoins, que ce soit pour le travail collaboratif ou pour des tâches graphiques. Des moniteurs haute définition aux écrans ultra-larges, nous avons ce qu'il vous faut.
+    </div>
+  </div>
 
-### 2. Sécurité renforcée
-Notre application SSO garantit une sécurité de haut niveau grâce à des protocoles d'authentification avancés, protégeant ainsi vos informations et vos services contre les accès non autorisés.
+  {/* Colonne 2 */}
+  <div style={{ flex: '1 1 50%', padding: '1rem' }}>
+    <div style={{ backgroundColor: '#f5f5f5', padding: '1rem', borderRadius: '5px', marginBottom: '1rem' }}>
+      <h3>
+        <a href="/docs/peripheriques" style={{ textDecoration: 'none', color: 'inherit' }}>
+          🔌 Périphériques
+        </a>
+      </h3>
+      Améliorez votre productivité avec notre gamme de périphériques : claviers ergonomiques, souris de précision, casques audio, webcams et bien plus encore.
+    </div>
 
-### 3. Simplification des tâches quotidiennes
-Ne perdez plus de temps à jongler entre plusieurs identifiants et mots de passe. Avec notre application SSO, un seul login vous permet d'accéder instantanément à tout ce dont vous avez besoin pour travailler efficacement.
+    <div style={{ backgroundColor: '#f5f5f5', padding: '1rem', borderRadius: '5px', marginBottom: '1rem' }}>
+      <h3>
+        <a href="/docs/reseaux-connectivite" style={{ textDecoration: 'none', color: 'inherit' }}>
+          🌐 Réseaux et Connectivité
+        </a>
+      </h3>
+      Assurez une connectivité fiable et rapide avec nos solutions réseau : routeurs, switchs, et câbles adaptés à vos besoins professionnels.
+    </div>
+  </div>
+</div>
 
-### 4. Assistance continue
-Besoin d'aide ? Vous pouvez accéder à notre **support** via la plateforme SSO pour obtenir de l'aide à tout moment. Notre équipe est là pour vous guider dans l'utilisation des services.
+## Pourquoi choisir la Centrale d'Achat ?
 
-## Comment démarrer ?
+<div style={{backgroundColor: 'lightblue', padding: '1rem', borderRadius: '5px', marginBottom: '1rem'}}>
+  **Économies importantes** : En centralisant vos achats, vous bénéficiez de prix négociés pour obtenir des tarifs plus avantageux.
+</div>
 
-1. Créez votre compte sur notre plateforme.
-2. Connectez-vous une seule fois et accédez à tous vos services : Support, Gestionnaire de mots de passe, Transfert de fichiers et bien plus encore.
-3. Profitez d’une gestion unifiée et sécurisée de vos services professionnels.
+<div style={{backgroundColor: 'lightgreen', padding: '1rem', borderRadius: '5px', marginBottom: '1rem'}}>
+  **Gain de temps** : Nos processus sont simplifiés et vous permettent de passer vos commandes en quelques clics, réduisant ainsi les tâches administratives.
+</div>
 
-![SSO CONNEXIOn](/img/sso_connexion.png)
+<div style={{backgroundColor: 'lightcoral', padding: '1rem', borderRadius: '5px', marginBottom: '1rem'}}>
+  **Support dédié** : Notre équipe est là pour vous accompagner à chaque étape de vos achats, en vous fournissant des conseils personnalisés et une assistance rapide.
+</div>
 
-Pour toute question ou besoin d’assistance, n’hésitez pas à contacter notre équipe via le **support** disponible sur votre tableau de bord.
+## Support et assistance
 
----
+Notre équipe est à votre disposition pour vous accompagner tout au long de votre parcours d'achat. Nous vous aidons à choisir les bons produits et à gérer vos commandes de manière efficace.
 
-Avec notre solution SSO, simplifiez et sécurisez l'accès à l'ensemble de vos services essentiels !
+<div style={{backgroundColor: 'violet', padding: '1rem', borderRadius: '5px', marginTop: '2rem'}}>
+  N'hésitez pas à [nous contacter](./contact.mdx) si vous avez des questions ou si vous avez besoin d'un devis personnalisé.
+</div>
+
